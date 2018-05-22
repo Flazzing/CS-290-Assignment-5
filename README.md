@@ -1,5 +1,5 @@
 # Assignment 5
-**Assignment and Code Blog entry due at 11:59pm on Wednesday, 6/4/2018**
+**Assignment and Code Blog entry due at 11:59pm on Monday, 6/4/2018**
 
 **Demo due by 5:00pm on Friday, 6/15/2018**
 
