@@ -1,0 +1,11 @@
+    <main class="twit-container"> 
+      {{#each data}}   
+        {{> newTwit}}
+      
+      {{/each}}
+
+    </main>
+    {{#if index}}    
+        {{> createTwit}}
+        {{> modal}}
+    {{/if}}
