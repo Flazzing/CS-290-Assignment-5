@@ -22,7 +22,10 @@
 
 
 	app.get('/', function (req, res) {
-	  res.status(200).render('newView', {data: twitData, index: 1}); //index: should you render create twit button 
+	  res.status(200).render('newView', {
+		  data: twitData, 
+		  index: 1
+	  }); //index: should you render create twit button 
 	});
 
 	app.get('/twits/%3C:twit%3E', function (req, res){
