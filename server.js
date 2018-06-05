@@ -35,7 +35,11 @@
 		if((twitId >= twitData.length) || (twitId < 0)){ 
 			res.status(404).render('error');
 		}
+        else if (typeof twitId == "string") {
+            res.status(404).render('error');
+        }
 		else{ 
+            console.log(twitId);
 			singleTwitArray.push(twitData[twitId]); 
 			res.status(200).render('newView', {data: singleTwitArray, index: 0}); 
 		}
